@@ -22,4 +22,4 @@ Florian Richter, Philipp Koch, Oliver Franke, Jakob Kraus, Fabrizio Kuruc, Anja 
 
 Robin Schaefer, Christoph M. Abels, Stephan Lewandowsky, and Manfred Stede. 2023. Communicating Climate Change: A Comparison Between Tweets and Speeches by German Members of Parliament. In *Proceedings of the 13th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis*, Toronto, Canada and Online. Association for Computational Linguistics.
 
-Jan Schwalbach, Lukas Hetzer, Sven-Oliver Proksch, Christian Rauh, and Miklós Seb˝ok. 2025. [*ParlLawSpeech*](https://parllawspeech.org/data). GESIS, Cologne.
+Jan Schwalbach, Lukas Hetzer, Sven-Oliver Proksch, Christian Rauh, and Miklós Seb˝ok. 2025. [*ParlLawSpeech*](https://parllawspeech.org/data). GESIS, Cologne. [https://doi.org/10.7802/2824](https://doi.org/10.7802/2824)
