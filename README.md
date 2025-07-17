@@ -13,7 +13,7 @@ This is version 1.0 of the corpus, as of May 30, 2025. A future version with imp
 ## Citation
 To cite this corpus, please cite the paper.
 
-`<insert citation>`
+> Manfred Stede and Ronja Memminger. AfD-CCC: Analyzing the Climate Change Discourse of a German Right-wing Political Party. In Proceedings of the 4th NLP for Positive Impact Workshop (NLP4PI) at ACL. Vienna, 2025. (to appear)
 
 ## Works Cited
 Florian Primig and Fabian Fröschl. 2024. Introducing the FROG tool for gathering Telegram data. *Mobile Media & Communication*, 12(2):449–453. [https://doi.org/10.1177/20501579241244973](https://doi.org/10.1177/20501579241244973)
