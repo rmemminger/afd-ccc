@@ -13,7 +13,7 @@ A corpus of short texts and parliamentary speech transcripts by the German polit
 
 The corpus presented here is made up as follows:
 
-| Text Domain    | Texts | Tokens  |
+| **Text Domain**    | **Texts** | **Tokens**  |
 | :------------- | ----: | ------: |
 | German Parl.   | 2,284 | 220,894 |
 | European Parl. | 668   | 48,025  |
@@ -26,7 +26,7 @@ The corpus presented here is made up as follows:
 ## Version
 
 This is Version 2.0 of the corpus, as of September 2025. Changes from Version 1.0 to 2.0 are as follows:
-- Minimum text length reduced from >10 tokens excl. stop words to >=10 tokens incl. stop words
+- Minimum text length reduced from >8 tokens excl. stop words to >=10 tokens incl. stop words
 - CC topic filtering process changed from rudimentary keyword search to automated classification with an XGBoost classifier trained for the task
 - Added filtered tweets (inly tweet IDs could be supplied)
 - Tokenisation now removes punctuation and retains stop words
