@@ -9,9 +9,21 @@ A corpus of short texts and parliamentary speech transcripts by the German polit
 - Press releases (2017-2021): Extracted from press releases made available by Schaefer et al. (2023)
 - Tweets (2017-2022): From Lasser et al. (2022). Due to Twitter privacy regulations, only tweet IDs can be given. 
 
+## Versions
+
+This repository presents Version 2.0 of the AfD-CCC, as of September 2025. Version 1.0, as of May 30, 2025, and as it was presented at the "NLP for Positive Impact" workshop (2025), is contained as an archive in `data`. 
+
+Changes from Version 1.0 to 2.0 are as follows:
+- Minimum text length reduced from >8 tokens excl. stop words to >=10 tokens incl. stop words
+- CC topic filtering process changed from rudimentary keyword search to automated classification with an XGBoost classifier trained for the task
+- Added filtered tweets (inly tweet IDs could be supplied)
+- Tokenisation now removes punctuation and retains stop words
+
+The [thesis document](Thesis-Memminger.pdf) contains detailed documentation of the topic filtering process in Version 2.0.
+
 ## Corpus Statistics
 
-The corpus presented here is made up as follows:
+Version 2.0 of the corpus is made up as follows:
 
 | **Text Domain**    | **Texts** | **Tokens**  |
 | :------------- | ----: | ------: |
@@ -21,19 +33,6 @@ The corpus presented here is made up as follows:
 | Twitter        | 1,880 | 54,592  |
 | Telegram       | 766   | 41,487  |
 | **Total**      | **6,509** | **450,354** |
-
-
-## Version
-
-This is Version 2.0 of the corpus, as of September 2025. Changes from Version 1.0 to 2.0 are as follows:
-- Minimum text length reduced from >8 tokens excl. stop words to >=10 tokens incl. stop words
-- CC topic filtering process changed from rudimentary keyword search to automated classification with an XGBoost classifier trained for the task
-- Added filtered tweets (inly tweet IDs could be supplied)
-- Tokenisation now removes punctuation and retains stop words
-
-The [thesis document](Thesis-Memminger.pdf) contains detailed documentation of the topic filtering process in Version 2.0.
-
-Version 1.0, as of May 30, 2025, and as it was presented at ACL 2025, is also contained as an archive in `data`. 
 
 ## Citation
 To cite this corpus, please cite the paper which presented version 1.0 of the corpus.
